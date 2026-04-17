@@ -1,4 +1,5 @@
 ---
+- ansible.builtin.include_tasks: pre_pwn.yml
 
 - name: Main | Display Banner
   tags:
